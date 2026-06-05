@@ -2,7 +2,15 @@
   "name": "techdome-assignment",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:integration": "playwright test tests/integration",
+    "test:security": "playwright test tests/security",
+    "test:load": "playwright test tests/load",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
